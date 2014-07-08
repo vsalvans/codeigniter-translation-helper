@@ -36,8 +36,9 @@ By default $language is the saved in the session and if it's not saved it will u
 
 **get_lang function**
 
-   get_lang()
+    get_lang()
 
 It returns the current language saved in the current session.
 You can change it by using set_userdata session function:
+
     $this->session->set_userdata('language','catalan');
